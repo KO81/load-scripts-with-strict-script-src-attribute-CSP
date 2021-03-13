@@ -1,5 +1,5 @@
 /*now this is a way of doing it it. you may find some other weird way to do so
-note this is not  tested yet.
+note this is testet but it gives an inline script and module is text/html error.
 note this will only work with other file.
 */
 const make_me=function(what){
