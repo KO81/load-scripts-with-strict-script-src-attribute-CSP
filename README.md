@@ -12,4 +12,4 @@ i'm @ reddit or twitter if you've any questions.
 
 enjoy, and have a great day everyone.
 
-TschÜs, have fun and keep calm and be healthy.
+TschÜs, have fun and keep calm and stay healthy.
