@@ -10,4 +10,6 @@ anyone can do it their way, i'm only sharing my expierence and discoveres i made
 
 i'm @ reddit or twitter if you've any questions.
 
-enjoy, and hvae a great day everyone.
+enjoy, and have a great day everyone.
+
+TschÜs, have fun and keep healthy.
