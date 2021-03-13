@@ -2,18 +2,19 @@
 note this is not  tested yet.
 note this will only work with other file.
 */
-const make_me=function(what){var b=$('div.files:eq(0)').html();
+const make_me=function(what){
 if(typeof what==='function'||!typeof what==='undefined'){return};
 	var a=document.createElement('script');
-	ttt(what,$('div.files:eq(0)'),'append').then( /*$('div.files:eq(0)') can be any jquery element, note that.*/
-	  function(value){b=b.split(/&/);
-	  	if(b[3].length>=0&&(b[3]==true)){a.async='';};
+	ttt(what,$('div.files:eq(0)'),'html').then(
+	  function(value){var b=$('div.files:eq(0)').text();
+	  	b=b.split('/&/');var c=b[0].split(',');a.type=c[1];
+	  	if(typeof b[3]==='undefined'&&b[3].length>=0&&(b[3]==true)){a.async='';};
 	  		if(b.length<=4){a.src=b[1];a.nonce=b[2];
 			}else{a.src=b[1];a.integrity=b[2];a.crossorigin=b[4];};
-	  		try{document.b[0].appendChild(a);}catch(e){e=0;
-	  		}finally{$('div.files:eq(0)').html().empty();};
+	  		try{document.querySelector(c[0]).appendChild(a);}catch(e){console.log(e);e=0;
+	  		}finally{$('div.files:eq(0)').html('');};
 	  	},
-	  function(error){ttt(what,$('div.files:eq(0)'),'append');}
+	  function(error){ttt(what,$('div.files:eq(0)'),'html');}
 	);
 };
 /*
