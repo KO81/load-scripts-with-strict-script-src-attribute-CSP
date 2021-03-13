@@ -1,5 +1,7 @@
 /*now this is a way of doing it it. you may find some other weird way to do so
 note this is testet but it gives an inline script and module is text/html error.
+silly me this error was caused, because i did not allow such filetype to be downloaded from that folder.
+so yeaahhhh it works, in chrome, but firefox has som sha512 calculation issues. 
 note this will only work with other file.
 */
 const make_me=function(what){
